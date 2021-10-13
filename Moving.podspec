@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Moving'
-  s.version          = '0.1.1'
+  s.version          = '0.1.0'
   s.summary          = 'Moving is work with collectioniew cell and its feel free to re-order using gesture.'
 
   s.description      = <<-DESC
@@ -19,14 +19,14 @@ Pod::Spec.new do |s|
 #  s.screenshots     = 'Moving/Example/Moving/video.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jalpeshGoti91' => 'gotijalpesh91@gmail.com' }
-  s.source           = { :git => 'https://github.com/jalpeshGoti91/Moving.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/jalpeshGoti91/Moving.git', :tag => s.version}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.frameworks = 'UIKit'
   s.ios.deployment_target = '13.0'
   s.platforms = {
     "ios":"13.0"
   }
-  s.source_files = 'Moving/Classes/**/*'
+  s.source_files = 'Classes/*.{h,m,swift}*'
   
   # s.resource_bundles = {
   #   'Moving' => ['Moving/Assets/*.png']
