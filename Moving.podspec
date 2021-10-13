@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Moving'
-  s.version          = '0.1.1'
+  s.version          = '0.1.0'
   s.summary          = 'Moving is work with collectioniew cell and its feel free to re-order using gesture.'
 
   s.description      = <<-DESC
