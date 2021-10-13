@@ -28,9 +28,9 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/jalpeshGoti91/Moving.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '13.0'
   s.platforms = {
-    "ios":"12.0"
+    "ios":"13.0"
   }
   s.source_files = 'Moving/Classes/**/*'
   
