@@ -59,7 +59,7 @@ import Moving
  ```
 ## Author
 
-Jalpesh, jalpesh.goti@bacancy.com
+Jalpesh, gotijalpesh91@gmail.com
 
 ## License
 
