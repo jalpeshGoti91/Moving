@@ -55,7 +55,7 @@ import Moving
     After that Set the gesture recognition of each with using _.applyGesture_. See below for more understanding.
     
 ```Swift
- self.collePhotoUpload.applyGesture(with: [Your array])
+ self.collePhotoUpload.applyDragAndDrop(with: [Your array])
  ```
 ## Author
 
