@@ -15,6 +15,8 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		76272347578C053C2EB905A1 /* Pods_Moving_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104AEB44E6CC46ECC952298B /* Pods_Moving_Tests.framework */; };
+		DB6DD99B2716DA2F00F65A47 /* uploadImageColleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB6DD9992716DA2F00F65A47 /* uploadImageColleCell.xib */; };
+		DB6DD99C2716DA2F00F65A47 /* uploadImageColleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6DD99A2716DA2F00F65A47 /* uploadImageColleCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +32,7 @@
 /* Begin PBXFileReference section */
 		104AEB44E6CC46ECC952298B /* Pods_Moving_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moving_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		486CAAEC42EA8356904E1DBF /* Pods-Moving_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moving_Example.debug.xcconfig"; path = "Target Support Files/Pods-Moving_Example/Pods-Moving_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4D96A42C2F4E0239B6AE2571 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4D96A42C2F4E0239B6AE2571 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Moving_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moving_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,9 +46,11 @@
 		7244B317CB33D58B4E3BA21F /* Pods-Moving_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moving_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Moving_Tests/Pods-Moving_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		72810BF4F3A0960A29FE38BD /* Pods-Moving_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moving_Tests.release.xcconfig"; path = "Target Support Files/Pods-Moving_Tests/Pods-Moving_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9890E287B42F77FD3E338707 /* Pods_Moving_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moving_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6D0132C43E0A31CA6F22CDB /* Moving.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Moving.podspec; path = ../Moving.podspec; sourceTree = "<group>"; };
+		A6D0132C43E0A31CA6F22CDB /* Moving.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Moving.podspec; path = ../Moving.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B191F67CF45038BB5C3D1BEC /* Pods-Moving_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moving_Example.release.xcconfig"; path = "Target Support Files/Pods-Moving_Example/Pods-Moving_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F3E55792F136AAAD6C89E428 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DB6DD9992716DA2F00F65A47 /* uploadImageColleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = uploadImageColleCell.xib; sourceTree = "<group>"; };
+		DB6DD99A2716DA2F00F65A47 /* uploadImageColleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = uploadImageColleCell.swift; sourceTree = "<group>"; };
+		F3E55792F136AAAD6C89E428 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 		607FACD21AFB9204008FA782 /* Example for Moving */ = {
 			isa = PBXGroup;
 			children = (
+				DB6DD99A2716DA2F00F65A47 /* uploadImageColleCell.swift */,
+				DB6DD9992716DA2F00F65A47 /* uploadImageColleCell.xib */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -147,7 +153,6 @@
 				7244B317CB33D58B4E3BA21F /* Pods-Moving_Tests.debug.xcconfig */,
 				72810BF4F3A0960A29FE38BD /* Pods-Moving_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +232,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -246,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB6DD99B2716DA2F00F65A47 /* uploadImageColleCell.xib in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
@@ -332,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				DB6DD99C2716DA2F00F65A47 /* uploadImageColleCell.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
