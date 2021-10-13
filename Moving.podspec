@@ -32,7 +32,8 @@ Pod::Spec.new do |s|
   s.platforms = {
     "ios":"13.0"
   }
-  s.source_files = 'Moving/Classes/**/*'
+  s.source_files = 'Moving/Classes/*.{h,m,swift}'
+  #'Moving/Classes/**/*'
   
   # s.resource_bundles = {
   #   'Moving' => ['Moving/Assets/*.png']
