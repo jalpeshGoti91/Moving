@@ -16,10 +16,10 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/jalpeshGoti91/Moving'
-  s.screenshots     = 'Moving/Example/Moving/video.gif'
+#  s.screenshots     = 'Moving/Example/Moving/video.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jalpeshGoti91' => 'gotijalpesh91@gmail.com' }
-  s.source           = { :git => 'https://github.com/jalpeshGoti91/Moving.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/jalpeshGoti91/Moving.git', :tag => s.version }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.frameworks = 'UIKit'
   s.ios.deployment_target = '13.0'
