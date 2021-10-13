@@ -17,6 +17,7 @@
 		76272347578C053C2EB905A1 /* Pods_Moving_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104AEB44E6CC46ECC952298B /* Pods_Moving_Tests.framework */; };
 		DB6DD99B2716DA2F00F65A47 /* uploadImageColleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB6DD9992716DA2F00F65A47 /* uploadImageColleCell.xib */; };
 		DB6DD99C2716DA2F00F65A47 /* uploadImageColleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6DD99A2716DA2F00F65A47 /* uploadImageColleCell.swift */; };
+		DB6DD99E2716EBE600F65A47 /* video.gif in Resources */ = {isa = PBXBuildFile; fileRef = DB6DD99D2716EBE600F65A47 /* video.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		B191F67CF45038BB5C3D1BEC /* Pods-Moving_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moving_Example.release.xcconfig"; path = "Target Support Files/Pods-Moving_Example/Pods-Moving_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DB6DD9992716DA2F00F65A47 /* uploadImageColleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = uploadImageColleCell.xib; sourceTree = "<group>"; };
 		DB6DD99A2716DA2F00F65A47 /* uploadImageColleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = uploadImageColleCell.swift; sourceTree = "<group>"; };
+		DB6DD99D2716EBE600F65A47 /* video.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = video.gif; sourceTree = "<group>"; };
 		F3E55792F136AAAD6C89E428 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				DB6DD99A2716DA2F00F65A47 /* uploadImageColleCell.swift */,
+				DB6DD99D2716EBE600F65A47 /* video.gif */,
 				DB6DD9992716DA2F00F65A47 /* uploadImageColleCell.xib */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
@@ -254,6 +257,7 @@
 			files = (
 				DB6DD99B2716DA2F00F65A47 /* uploadImageColleCell.xib in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				DB6DD99E2716EBE600F65A47 /* video.gif in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
