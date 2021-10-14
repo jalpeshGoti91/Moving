@@ -57,6 +57,9 @@ import Moving
 ```Swift
  self.collePhotoUpload.applyDragAndDrop(with: [Your array])
  ```
+5. 👉🏻  Don't forget to change Collectionview automatic size : Xcode -> Size Inspector -> Estimate size set automatic to **None** 👈🏻
+
+
 ## Author
 
 Jalpesh, gotijalpesh91@gmail.com
