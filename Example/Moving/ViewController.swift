@@ -16,7 +16,6 @@ class ViewController: UIViewController {
     @IBOutlet var collePhotoUpload : JPcolleView!
     
     let margin: CGFloat = 10
-    
     var aryOfImage = ["1","2","3","4","5","6","3","4","5"]
    
     override func viewDidLoad() {
