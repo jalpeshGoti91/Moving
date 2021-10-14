@@ -30,6 +30,10 @@ If you'd like to test the included demo project before including it in your own 
 
 How to use it
 ---
+
+👉🏻  🔥   Don't forget to change Collectionview automatic size : Xcode -> Size Inspector -> Estimate size set automatic to **None**   👈🏻
+
+
 1. Import framework to your ViewController file _JPColleDragDropCell_
 
 ```Swift
@@ -57,8 +61,6 @@ import Moving
 ```Swift
  self.collePhotoUpload.applyDragAndDrop(with: [Your array])
  ```
-5. 👉🏻  🔥   Don't forget to change Collectionview automatic size : Xcode -> Size Inspector -> Estimate size set automatic to **None**   👈🏻
-
 
 ## Author
 
