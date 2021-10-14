@@ -7,12 +7,12 @@
 
 ## Example
 
+
+
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
-
-
-![video](https://user-images.githubusercontent.com/41320147/137277681-bbf37b7c-692f-4a58-adcc-91389540e98a.gif)
 
 Swift 5.0 with compatible iOS 13.0+
 
